@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hhead2Toe - Premium Fashion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <img src="images/logo.png" alt="Hhead2Toe Logo" class="logo-img">
+        </div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <nav class="mobile-menu" id="mobileMenu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h1 class="hero-logo">Hhead2Toe</h1>
+        <p class="hero-tagline">Nigeria's Leading Luxury Retailer for Kicks & Streetwear</p>
+        <a href="#products" class="cta-button">Explore Collection</a>
+    </section>
+
+    <!-- Products Section -->
+    <section class="section" id="products">
+        <h2 class="section-title">Featured Products</h2>
+        
+        <div class="category-filter">
+            <button class="filter-btn active" data-category="all">All</button>
+            <button class="filter-btn" data-category="shoes">Shoes</button>
+            <button class="filter-btn" data-category="slides">Slides</button>
+            <button class="filter-btn" data-category="caps">Caps</button>
+            <button class="filter-btn" data-category="socks">Socks</button>
+            <button class="filter-btn" data-category="glasses">Glasses</button>
+        </div>
+
+        <div class="products-container">
+            <!-- Default Carousel View -->
+            <div id="carouselView">
+                <!-- Shoes Category -->
+                <div class="category-section" data-category="shoes">
+                    <h3 class="category-title">Premium Shoes</h3>
+                    <div class="products-carousel">
+                        <div class="carousel-container">
+                            <div class="product-card">
+                                <div class="product-images">
+                                    <img src="images/Jordan.jpeg" alt="Air Jordan 40 Classic Front" class="product-image front">
+                                    <img src="images/Jordan-back.jpeg" alt="Air Jordan 40 Classic Back" class="product-image back">
+                                </div>
+                                <div class="product-info">
+                                    <h4 class="product-name">2025 Air Jordan 40 'The Classic'</h4>
+                                    <p class="product-price">₦575,000</p>
+                                    <p class="product-description">White leather & black nubuck with Zoom Strobel and ZoomX foam cushioning</p>
+                                    <button class="whatsapp-btn">Shop on WhatsApp</button>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-images">
+                                    <img src="images/book.jpeg" alt="Nike Book 1 Night Front" class="product-image front">
+                                    <img src="images/book-back.jpeg" alt="Nike Book 1 Night Back" class="product-image back">
+                                </div>
+                                <div class="product-info">
+                                    <h4 class="product-name">2025 Nike Book 1 'Night'</h4>
+                                    <p class="product-price">₦440,000</p>
+                                    <p class="product-description">Black mesh with iridescent Swoosh, Cushlon midsole with Zoom Air heel unit</p>
+                                    <button class="whatsapp-btn">Shop on WhatsApp</button>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-images">
+                                    <img src="images/lebron.png" alt="Air Jordan 40 Classic Front" class="product-image front">
+                                    <img src="images/lebron-back.png" alt="Air Jordan 40 Classic Back" class="product-image back">
+                                </div>
+                                <div class="product-info">
+                                    <h4 class="product-name">2025 LeBron 21 ‘Prime 93’</h4>
+                                    <p class="product-price">₦452,000</p>
+                                    <p class="product-description">White leather & black nubuck with Zoom Strobel and ZoomX foam cushioning</p>
+                                    <button class="whatsapp-btn">Shop on WhatsApp</button>
+                                </div>
+                            </div>                           
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slides Category -->
+                <div class="category-section" data-category="slides">
+                    <h3 class="category-title">Designer Slides</h3>
+                    <div class="products-carousel">
+                        <div class="carousel-container">
+                            <div class="product-card">
+                                <div class="product-images">
+                                    <img src="images/dngslide.jpeg" alt="Dolce Gabbana Slides Front" class="product-image front">
+                                    <img src="images/dngslide.jpeg" alt="Dolce Gabbana Slides Back" class="product-image back">
+                                </div>
+                                <div class="product-info">
+                                    <h4 class="product-name">New Season Dolce & Gabbana Fly Slides</h4>
+                                    <p class="product-price">₦1,500,000</p>
+                                    <p class="product-description">Premium cream leather slides with signature D&G styling and luxury Italian craftsmanship</p>
+                                    <button class="whatsapp-btn">Shop on WhatsApp</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Caps Category -->
+                <div class="category-section" data-category="caps">
+                    <h3 class="category-title">Premium Caps</h3>
+                    <div class="products-carousel">
+                        <div class="carousel-container">
+                            <div class="product-card">
+                                <div class="product-images">
+                                    <img src="images/knw.jpeg" alt="Kith Wilson Hat Front" class="product-image front">
+                                    <img src="images/knw-back.jpeg" alt="Kith Wilson Hat Back" class="product-image back">
+                                </div>
+                                <div class="product-info">
+                                    <h4 class="product-name">2025 Kith & Wilson Polyfoam Nolan Trucker Hat 'Nocturnal'</h4>
+                                    <p class="product-price">₦1,200,000</p>
+                                    <p class="product-description">White trucker hat with blue front panel, featuring Kith logo and tennis racket design</p>
+                                    <button class="whatsapp-btn">Shop on WhatsApp</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Socks Category -->
+                <div class="category-section" data-category="socks">
+                    <h3 class="category-title">Designer Socks</h3>
+                    <div class="products-carousel">
+                        <div class="carousel-container">
+                            <div class="product-card">
+                                <div class="product-images">
+                                    <img src="images/sxj.jpeg" alt="Supreme Jordan Socks Front" class="product-image front">
+                                    <img src="images/sxj-back.jpeg" alt="Supreme Jordan Socks Back" class="product-image back">
+                                </div>
+                                <div class="product-info">
+                                    <h4 class="product-name">Supreme x Jordan Crew Socks 'White'</h4>
+                                    <p class="product-price">₦150,000</p>
+                                    <p class="product-description">Premium white crew socks from the exclusive Supreme x Jordan collaboration</p>
+                                    <button class="whatsapp-btn">Shop on WhatsApp</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Glasses Category -->
+                <div class="category-section" data-category="glasses">
+                    <h3 class="category-title">Luxury Glasses</h3>
+                    <div class="products-carousel">
+                        <div class="carousel-container">
+                            <div class="product-card">
+                                <div class="product-images">
+                                    <img src="images/rayban.jpeg" alt="Ray-Ban Sunglasses Front" class="product-image front">
+                                    <img src="images/rayban-back.jpeg" alt="Ray-Ban Sunglasses Back" class="product-image back">
+                                </div>
+                                <div class="product-info">
+                                    <h4 class="product-name">Ray-Ban Round-Frame Sunglasses</h4>
+                                    <p class="product-price">₦274,000</p>
+                                    <p class="product-description">Classic round-frame sunglasses with premium Ray-Ban craftsmanship and UV protection</p>
+                                    <button class="whatsapp-btn">Shop on WhatsApp</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grid View (Hidden by default) -->
+            <div class="products-grid" id="gridView"></div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section testimonials" id="testimonials">
+        <h2 class="section-title">What Our Clients Say</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <p class="testimonial-text">"Hhead2Toe has completely transformed my wardrobe. The quality is exceptional and the designs are absolutely stunning. Every piece feels like a work of art."</p>
+                <p class="testimonial-author">- Adebayo Johnson</p>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-text">"I've never experienced such premium quality before. The attention to detail is incredible and the customer service is top-notch. Highly recommend!"</p>
+                <p class="testimonial-author">- Chiamaka Okafor</p>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-text">"The perfect blend of style and comfort. Every item I've purchased has exceeded my expectations. Hhead2Toe is truly in a class of its own."</p>
+                <p class="testimonial-author">- Funmi Adebisi</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp CTA -->
+    <section class="section whatsapp-cta">
+        <h2 class="section-title">Ready to Experience Luxury?</h2>
+        <p class="whatsapp-cta-text">Get personalized assistance and exclusive deals directly on WhatsApp</p>
+        <a href="https://wa.me/2347069100604" class="whatsapp-main-btn">Shop Now on WhatsApp</a>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <div class="contact-icon">📞</div>
+                <h3>Phone</h3>
+                <p>+234 706 910 0604</p>
+            </div>
+            <div class="contact-item">
+                <div class="contact-icon">✉️</div>
+                <h3>Email</h3>
+                <p>kjohnny373@gmail.com</p>
+            </div>
+            <div class="contact-item">
+                <div class="contact-icon">📍</div>
+                <h3>Location</h3>
+                <p>Asaba, Abraka</p>
+            </div>
+            <div class="contact-item">
+                <div class="contact-icon">📱</div>
+                <h3>Social Media</h3>
+                <p>@hhead2toe</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Hhead2Toe(Demo). All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
