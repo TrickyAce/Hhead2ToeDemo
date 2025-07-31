@@ -36,13 +36,6 @@
             transition: all 0.3s ease;
         }
 
-        .logo {
-            font-size: 1.8rem;
-            font-weight: bold;
-            color: var(--gold);
-            letter-spacing: 2px;
-        }
-
         .logo-img {
             height: 40px;
             width: auto;
@@ -55,6 +48,7 @@
             width: 30px;
             height: 20px;
             justify-content: space-between;
+            margin-right: 2.5rem;
         }
 
         .hamburger span {
