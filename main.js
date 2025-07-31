@@ -61,7 +61,8 @@
             { category: 'shoes', name: 'Nike Book 1 \'Night\'', price: '₦440,000', description: 'Black mesh with iridescent Swoosh, Cushlon midsole with Zoom Air heel unit', frontImg: 'images/book.jpeg', backImg: 'images/book-back.jpeg' },
             { category: 'shoes', name: '2025 LeBron 21 ‘Prime 93’', price: '₦452,000', description: 'White leather & black nubuck with Zoom Strobel and ZoomX foam cushioning', frontImg: 'images/lebron.png', backImg: 'images/lebron-back.png' },
             // Slides
-            { category: 'slides', name: 'New Season Dolce & Gabbana Fly Slides', price: '₦1,500,000', description: 'Premium cream leather slides with signature D&G styling and luxury Italian craftsmanship', frontImg: 'images/dngslide.jpeg', backImg: 'images/dngslide.jpeg' },
+            { category: 'slides', name: 'New Season Dolce & Gabbana Fly Slides', price: '₦1,500,000', description: 'Premium cream leather slides with signature D&G styling and luxury Italian craftsmanship', frontImg: 'images/dngslide.jpeg', backImg: 'images/dngslide-back.png' },
+            {category: 'slides', name: 'Nike Air Max 1 “Alr Brown” Slides', price: '₦198,000', description: 'Premium cream leather slides with signature D&G styling and luxury Italian craftsmanship', frontImg: 'images/nike.png', backImg: 'images/nike-back.png' },
             // Caps
             { category: 'caps', name: '2025 Kith & Wilson Polyfoam Nolan Trucker Hat \'Nocturnal\'', price: '₦1,200,000', description: 'White trucker hat with blue front panel, featuring Kith logo and tennis racket design', frontImg: 'images/knw.jpeg', backImg: 'images/knw-back.jpeg' },
             // Socks
