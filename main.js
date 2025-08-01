@@ -65,10 +65,13 @@
             {category: 'slides', name: 'Nike Air Max 1 “Alr Brown” Slides', price: '₦198,000', description: 'Premium cream leather slides with signature D&G styling and luxury Italian craftsmanship', frontImg: 'images/nike.png', backImg: 'images/nike-back.png' },
             // Caps
             { category: 'caps', name: '2025 Kith & Wilson Polyfoam Nolan Trucker Hat \'Nocturnal\'', price: '₦1,200,000', description: 'White trucker hat with blue front panel, featuring Kith logo and tennis racket design', frontImg: 'images/knw.jpeg', backImg: 'images/knw-back.jpeg' },
+            { category: 'caps', name: 'Supreme Corduroy Camp Cap', price: '₦267,000', description: 'White trucker hat with blue front panel, featuring Kith logo and tennis racket design', frontImg: 'images/supr.png', backImg: 'images/supr-back.png' },
             // Socks
             { category: 'socks', name: 'Supreme x Jordan Crew Socks \'White\'', price: '₦150,000', description: 'Premium white crew socks from the exclusive Supreme x Jordan collaboration', frontImg: 'images/sxj.jpeg', backImg: 'images/sxj-back.jpeg' },
+            { category: 'socks', name: 'Supreme x Nike Lightweight Crew Socks ‘Black’', price: '₦191,000', description: 'Premium white crew socks from the exclusive Supreme x Jordan collaboration', frontImg: 'images/sxn.png', backImg: 'images/sxn-back.png' },
             // Glasses
-            { category: 'glasses', name: 'Ray-Ban Round-Frame Sunglasses', price: '₦274,000', description: 'Classic round-frame sunglasses with premium Ray-Ban craftsmanship and UV protection', frontImg: 'images/rayban.jpeg', backImg: 'images/rayban-back.jpeg' }
+            { category: 'glasses', name: 'Ray-Ban Round-Frame Sunglasses', price: '₦274,000', description: 'Classic round-frame sunglasses with premium Ray-Ban craftsmanship and UV protection', frontImg: 'images/rayban.jpeg', backImg: 'images/rayban-back.jpeg' },
+            { category: 'glasses', name: '2023 Oakley Sutro Lite Sweep Sunglasses ’Black’', price: '₦435,000', description: 'Classic round-frame sunglasses with premium Ray-Ban craftsmanship and UV protection', frontImg: 'images/oak.png', backImg: 'images/oak-back.png' },
         ];
 
         function createProductCard(product) {
