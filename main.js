@@ -57,21 +57,21 @@
         // Product data for grid view
         const allProducts = [
             // Shoes
-            { category: 'shoes', name: 'Air Jordan 40 \'The Classic\'', price: '₦575,000', description: 'White leather & black nubuck with Zoom Strobel and ZoomX foam cushioning', frontImg: 'images/Jordan.jpeg', backImg: 'images/Jordan-back.jpeg' },
-            { category: 'shoes', name: 'Nike Book 1 \'Night\'', price: '₦440,000', description: 'Black mesh with iridescent Swoosh, Cushlon midsole with Zoom Air heel unit', frontImg: 'images/book.jpeg', backImg: 'images/book-back.jpeg' },
-            { category: 'shoes', name: '2025 LeBron 21 ‘Prime 93’', price: '₦452,000', description: 'White leather & black nubuck with Zoom Strobel and ZoomX foam cushioning', frontImg: 'images/lebron.png', backImg: 'images/lebron-back.png' },
+            { category: 'shoes', name: 'Air Jordan 40 \'The Classic\'', price: '₦575,000', description: 'White leather & black nubuck with Zoom Strobel and ZoomX foam cushioning', frontImg: 'images/Jordan.webp', backImg: 'images/Jordan-back.webp' },
+            { category: 'shoes', name: 'Nike Book 1 \'Night\'', price: '₦440,000', description: 'Black mesh with iridescent Swoosh, Cushlon midsole with Zoom Air heel unit', frontImg: 'images/book.webp', backImg: 'images/book-back.webp' },
+            { category: 'shoes', name: '2025 LeBron 21 ‘Prime 93’', price: '₦452,000', description: 'White leather & black nubuck with Zoom Strobel and ZoomX foam cushioning', frontImg: 'images/lebron.webp', backImg: 'images/lebron-back.webp' },
             // Slides
-            { category: 'slides', name: 'New Season Dolce & Gabbana Fly Slides', price: '₦1,500,000', description: 'Premium cream leather slides with signature D&G styling and luxury Italian craftsmanship', frontImg: 'images/dngslide.jpeg', backImg: 'images/dngslide-back.png' },
-            {category: 'slides', name: 'Nike Air Max 1 “Alr Brown” Slides', price: '₦198,000', description: 'Premium cream leather slides with signature D&G styling and luxury Italian craftsmanship', frontImg: 'images/nike.png', backImg: 'images/nike-back.png' },
+            { category: 'slides', name: 'New Season Dolce & Gabbana Fly Slides', price: '₦1,500,000', description: 'Premium cream leather slides with signature D&G styling and luxury Italian craftsmanship', frontImg: 'images/dngslide.webp', backImg: 'images/dngslide-back.webp' },
+            {category: 'slides', name: 'Nike Air Max 1 “Alr Brown” Slides', price: '₦198,000', description: 'Premium cream leather slides with signature D&G styling and luxury Italian craftsmanship', frontImg: 'images/nike.webp', backImg: 'images/nike-back.webp' },
             // Caps
-            { category: 'caps', name: '2025 Kith & Wilson Polyfoam Nolan Trucker Hat \'Nocturnal\'', price: '₦1,200,000', description: 'White trucker hat with blue front panel, featuring Kith logo and tennis racket design', frontImg: 'images/knw.jpeg', backImg: 'images/knw-back.jpeg' },
-            { category: 'caps', name: 'Supreme Corduroy Camp Cap', price: '₦267,000', description: 'White trucker hat with blue front panel, featuring Kith logo and tennis racket design', frontImg: 'images/supr.png', backImg: 'images/supr-back.png' },
+            { category: 'caps', name: '2025 Kith & Wilson Polyfoam Nolan Trucker Hat \'Nocturnal\'', price: '₦1,200,000', description: 'White trucker hat with blue front panel, featuring Kith logo and tennis racket design', frontImg: 'images/knw.webp', backImg: 'images/knw-back.webp' },
+            { category: 'caps', name: 'Supreme Corduroy Camp Cap', price: '₦267,000', description: 'White trucker hat with blue front panel, featuring Kith logo and tennis racket design', frontImg: 'images/supr.webp', backImg: 'images/supr-back.webp' },
             // Socks
-            { category: 'socks', name: 'Supreme x Jordan Crew Socks \'White\'', price: '₦150,000', description: 'Premium white crew socks from the exclusive Supreme x Jordan collaboration', frontImg: 'images/sxj.jpeg', backImg: 'images/sxj-back.jpeg' },
-            { category: 'socks', name: 'Supreme x Nike Lightweight Crew Socks ‘Black’', price: '₦191,000', description: 'Premium white crew socks from the exclusive Supreme x Jordan collaboration', frontImg: 'images/sxn.png', backImg: 'images/sxn-back.png' },
+            { category: 'socks', name: 'Supreme x Jordan Crew Socks \'White\'', price: '₦150,000', description: 'Premium white crew socks from the exclusive Supreme x Jordan collaboration', frontImg: 'images/sxj.webp', backImg: 'images/sxj-back.webp' },
+            { category: 'socks', name: 'Supreme x Nike Lightweight Crew Socks ‘Black’', price: '₦191,000', description: 'Premium white crew socks from the exclusive Supreme x Jordan collaboration', frontImg: 'images/sxn.webp', backImg: 'images/sxn-back.webp' },
             // Glasses
-            { category: 'glasses', name: 'Ray-Ban Round-Frame Sunglasses', price: '₦274,000', description: 'Classic round-frame sunglasses with premium Ray-Ban craftsmanship and UV protection', frontImg: 'images/rayban.jpeg', backImg: 'images/rayban-back.jpeg' },
-            { category: 'glasses', name: '2023 Oakley Sutro Lite Sweep Sunglasses ’Black’', price: '₦435,000', description: 'Classic round-frame sunglasses with premium Ray-Ban craftsmanship and UV protection', frontImg: 'images/oak.png', backImg: 'images/oak-back.png' },
+            { category: 'glasses', name: 'Ray-Ban Round-Frame Sunglasses', price: '₦274,000', description: 'Classic round-frame sunglasses with premium Ray-Ban craftsmanship and UV protection', frontImg: 'images/rayban.webp', backImg: 'images/rayban-back.webp' },
+            { category: 'glasses', name: '2023 Oakley Sutro Lite Sweep Sunglasses ’Black’', price: '₦435,000', description: 'Classic round-frame sunglasses with premium Ray-Ban craftsmanship and UV protection', frontImg: 'images/oak.webp', backImg: 'images/oak-back.webp' },
         ];
 
         function createProductCard(product) {
